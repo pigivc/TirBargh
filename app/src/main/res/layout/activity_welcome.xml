@@ -1,0 +1,74 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/welcome_layout" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".welcome">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logotv_logo_500x500"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnShowAds"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBtnShowAdsClick"
+                android:text="@string/btn_show_ads"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnInsertAds"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_insert_ads"
+                android:textSize="30sp"
+                android:onClick="onBtnInsertAdsClick"
+                android:layout_marginTop="20dp" />
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnExit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:onClick="onBtnExitClick"
+                android:text="@string/btn_exit"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <fragment
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_navigation_drawer"
+        android:layout_gravity="start"
+        android:layout="@layout/fragment_navigation_drawer"
+        tools:layout="@layout/fragment_navigation_drawer"
+        android:name="com.irprogram.tirbargh.navigation_drawer" >
+
+    </fragment>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="internet_error_title">مشکل مهم</string>
+    <string name="internet_error_message">خطا در برقراری ارتباط با اینترنت</string>
+
+    <string name="app_name">تیر برق</string>
+    <string name="btn_show_ads">نمایش آگهی ها</string>
+    <string name="btn_insert_ads">درج آگهی</string>
+    <string name="btn_exit">خروج</string>
+
+    <string name="btn_about_me">درباره من</string>
+    <string name="btn_contact_me">تماس با  من</string>
+    <string name="label_category">دسته بندی</string>
+
+    <string name="action_settings">تنظیمات</string>
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="title_activity_ads">آگهی ها</string>
+    <string name="btn_Back_to_home">بازگشت</string>
+
+    <string name="alert_about_title">درباره برنامه نویس</string>
+    <string name="alert_about_body">متیما یوسفی راد</string>
+
+    <string name="alert_contact_title">تماس با برنامه نویس</string>
+    <string name="alert_contact_body">VinousEng@Gmail.Com</string>
+
+    <string name="title_activity_show_full_ads">آگهی مورد نظر</string>
+
+    <string name="big_image_title">تصویر بزرگ</string>
+
+    <string name="title_activity_insert_ads">درج آگهی</string>
+
+    <string name="insert_ads_form_title">عنوان</string>
+    <string name="insert_ads_form_intro">معرفی</string>
+    <string name="insert_ads_form_desc">توضیحات</string>
+    <string name="insert_ads_form_seller">فروشنده</string>
+    <string name="insert_ads_form_email">رایانامه</string>
+    <string name="insert_ads_form_phone">تلفن</string>
+    <string name="insert_ads_form_cat">دسته بندی</string>
+    <string name="insert_ads_form_image">تصویر</string>
+    <string name="insert_ads_form_btn_camera">دوربین</string>
+    <string name="insert_ads_form_btn_gallery">گالری</string>
+    <string name="insert_ads_form_btn_insert">درج آگهی</string>
+
+    <string name="insert_ads_form_error_hint">مقدار را وارد کنید...</string>
+
+    <string name="no_camera_error">دوربین یافت نشد</string>
+    <string name="get_image_error">خطا در عملیات</string>
+    <string name="captured_img_title">تصویر گرفته شده</string>
+    <string name="captured_img_btn_again">دوباره</string>
+    <string name="captured_img_btn_ok">تأیید</string>
+    <string name="captured_img_is_true">تصویر انتخاب شده</string>
+
+    <string name="insert_ads_form_error_sel_cat">یک دسته انتخاب کنید</string>
+    <string name="insert_ads_form_error_sel_img">یک تصویر انتخاب کنید</string>
+
+    <string name="insert_ads_form_sel_cat_text">انتخاب نشده</string>
+
+    <string name="result_of_insert_title">نتیجه درج آگهی</string>
+    <string name="result_of_insert_message_success">آگهی با موفقیت درج شد</string>
+    <string name="result_of_insert_message_failure">درج آگهی با مشکل مواجه شد</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>
